@@ -47,12 +47,19 @@ Fully modular architecture for scalable and maintainable code.
 🏗️ Project Architecture
 
 /src
+
   /controllers       → Core logic for routes (subscriptions, users)
+  
   /models            → Mongoose models (User, Plan, Logs, Payment)
+  
   /middlewares       → Auth, validation, rate limiting
+  
   /routes            → API routes (RESTful)
+  
   /utils             → Logging, email, JWT helpers
+  
   /config            → DB connection, env configs
+  
   /services          → Business logic & integrations (e.g., Upstash, Arcjet)
   
 ⚙️ Tech Stack
