@@ -66,19 +66,19 @@ Fully modular architecture for scalable and maintainable code.
 
 Layer	Tool
 
-Language	TypeScript / Node.js
+Language - 	TypeScript / Node.js
 
-Database	MongoDB + Mongoose
+Database - 	MongoDB + Mongoose
 
-Auth	JWT Tokens
+Auth - 	JWT Tokens
 
-Email	Upstash
+Email - 	Upstash
 
-Security	Arcjet (rate limit, bot block)
+Security - 	Arcjet (rate limit, bot block)
 
-Monitoring	Custom logger (Winston/Morgan)
+Monitoring - 	Custom logger (Winston/Morgan)
 
-Validation	Zod / Express Middleware
+Validation - 	Zod / Express Middleware
 
 📦 Use Case
 This backend API can serve as the core engine for:
